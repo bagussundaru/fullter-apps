@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "datakependudukan_mobile",
-    "slug": "datakependudukan_mobile",
+    "slug": "flutter",
     "version": "1.0.0",
     "orientation": "portrait",
     "platforms": ["android", "ios", "web"],
