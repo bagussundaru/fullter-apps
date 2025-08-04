@@ -13,3 +13,12 @@ flutter precache --web
 # Build
 flutter pub get
 flutter build web --release --base-href="/"
+
+# Verify build output
+if [ ! -f "build/web/index.html" ]; then
+  echo "❌ ERROR: build/web/index.html not found!"
+  ls -la build/web/
+  exit 1
+fi
+
+echo "✅ Build completed successfully"
