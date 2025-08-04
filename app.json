@@ -8,6 +8,11 @@
     "sdkVersion": "50.0.0",
     "android": {
       "package": "com.bagussundaru.datakependudukanmobile"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "ISI_PROJECT_ID_ANDA"
+      }
     }
   }
 }
