@@ -9,6 +9,9 @@
     "android": {
       "package": "com.bagussundaru.datakependudukanmobile"
     },
+    "ios": {
+      "bundleIdentifier": "com.bagussundaru.datakependudukanmobile"
+    },
     "extra": {
       "eas": {
       "projectId": "cc469b29-1c57-4e0d-a654-eaa82d4cdbac"
