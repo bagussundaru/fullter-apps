@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "buildCommand": "flutter build web --release --base-href=/",
+  "outputDirectory": "build/web",
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/index.html"
+    }
+  ]
+}
